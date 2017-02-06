@@ -1,7 +1,8 @@
-module I18n exposing (..)
+module Misc.I18n exposing (..)
 
 import Dict
-import Types exposing (..)
+import B_Message exposing (..)
+import C_Data exposing (Translations)
 
 
 get : Translations -> String -> String

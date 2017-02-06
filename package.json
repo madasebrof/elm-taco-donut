@@ -1,0 +1,14 @@
+{
+  "name": "donut-tutorial-16",
+  "version": "1.0.0",
+  "description": "Step 16 of the Donut Tutorials",
+  "main": "index.js",
+  "scripts": {
+    "live": "elm-live src/Main.elm --output=elm.js --pushstate",
+    "live-open": "elm-live src/Main.elm --output=elm.js --open --pushstate"
+  },
+  "author": "Adam Forbes",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}

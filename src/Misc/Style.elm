@@ -1,4 +1,4 @@
-module Styles exposing (..)
+module Misc.Style exposing (..)
 
 import Html exposing (Attribute)
 import Html.Attributes
@@ -21,6 +21,11 @@ styles =
 
 
 -- CONSTANTS
+
+
+colorBg : Color
+colorBg =
+    hex "fff9cc"
 
 
 colorLightGrey : Color
@@ -67,6 +72,16 @@ defaultShadow =
 -- MIXINS
 
 
+bg : Mixin
+bg =
+    mixin
+        [ width (pct 100)
+        , minHeight (vh 100)
+        , backgroundColor colorBg
+        , fontFamilies [ "-apple-system", "system-ui", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif" ]
+        ]
+
+
 container : Mixin
 container =
     mixin
@@ -104,9 +119,27 @@ navigationButtonBase =
 -- ELEMENT STYLES
 
 
+donutWidget : List Mixin
+donutWidget =
+    [ fontFamily (monospace) ]
+
+
+donutButtonActive : List Mixin
+donutButtonActive =
+    actionButtonActive ++ [ margin2 (rem 0.5) (rem 0) ]
+
+
+donutButtonDisabled =
+    actionButton
+        ++ [ margin2 (rem 0.5) (rem 0)
+           , cursor notAllowed
+           ]
+
+
 appStyles : List Mixin
 appStyles =
     [ color colorText
+    , backgroundColor (hex "fff9cc")
     ]
 
 

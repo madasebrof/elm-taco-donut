@@ -1,7 +1,8 @@
 {
-    "site-title": "🌮 Taco-demo",
+    "site-title": "🌮 🍩 taco-donitsi-demo",
     "page-title-home": "Eturi",
     "page-title-settings": "Asetukset",
+    "page-title-donuts": "Donitsi",
     "commits-heading": "Commitit repoon",
     "stargazers-heading": "Starranneet",
     "language-selection-heading": "Valkkaa kieli",
@@ -13,5 +14,8 @@
     "timeformat-zero-minutes": "Just äsken",
     "timeformat-one-minute-ago": "Minsa sitten",
     "timeformat-n-minutes-ago-before": "Noin",
-    "timeformat-n-minutes-ago-after": "minsaa sitten"
+    "timeformat-n-minutes-ago-after": "minsaa sitten",
+    "donut-hi": "Moi! Nimeni on ",
+    "donut-love": ". Rakastan munkkeja!",
+    "donut-what": "Mitä tahansa minä teen?"
 }

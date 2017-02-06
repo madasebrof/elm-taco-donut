@@ -1,7 +1,8 @@
 {
-    "site-title": "Taco 🌮 Demo",
+    "site-title": "Taco 🌮 Donut 🍩 Demo",
     "page-title-home": "Home",
     "page-title-settings": "Settings",
+    "page-title-donuts": "Donuts",
     "language-selection-heading": "Select language",
     "commits-heading": "Commits for repository",
     "stargazers-heading": "Stargazers",
@@ -13,5 +14,8 @@
     "timeformat-zero-minutes": "Just now",
     "timeformat-one-minute-ago": "A minute ago",
     "timeformat-n-minutes-ago-before": "Around",
-    "timeformat-n-minutes-ago-after": "minutes ago"
+    "timeformat-n-minutes-ago-after": "minutes ago",
+    "donut-hi": "Hi! My name is ",
+    "donut-love": ". I love donuts! Er, doughtnuts?!?",
+    "donut-what": "Whatever shall I do?"
 }

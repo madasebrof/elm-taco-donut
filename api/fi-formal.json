@@ -1,7 +1,8 @@
 {
-    "site-title": "Taco-ajatusmallin 🌮 esittely",
+    "site-title": "Taco-ajatusmallin 🌮 Munkkirinkilä 🍩 esittely",
     "page-title-home": "Etusivu",
     "page-title-settings": "Asetukset",
+    "page-title-donuts": "Munkkirinkilä",
     "language-selection-heading": "Valitse kieli",
     "commits-heading": "Koodimuutokset repositorioon",
     "stargazers-heading": "Tähden antaneet",
@@ -13,5 +14,8 @@
     "timeformat-zero-minutes": "Tovi sitten",
     "timeformat-one-minute-ago": "Minuutti sitten",
     "timeformat-n-minutes-ago-before": "Suunnilleen",
-    "timeformat-n-minutes-ago-after": "minuuttia sitten"
+    "timeformat-n-minutes-ago-after": "minuuttia sitten",
+    "donut-hi": "Moi! Nimeni on ",
+    "donut-love": ". Rakastan munkkeja!",
+    "donut-what": "Mitä tahansa minä teen?"
 }
